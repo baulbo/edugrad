@@ -14,7 +14,7 @@
 
 ## Introduction
 
-Please refer to the [mul.py](mul.py) example.
+Please refer to the [mul.py](mul.py) example. Currently, the example contains non-working code and was more of an experiment. Next, we should go from [this guide](http://pytorch.org/docs/main/notes/extending.html) to learn what the forward and backward functions should actually do.
 
 ## References
 
