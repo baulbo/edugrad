@@ -20,6 +20,8 @@ Please refer to the [mlp.py](examples/mlp.py) example.
 
 * [March 17, 2015 - A Step by Step Backpropagation Example by Matt Mazur](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
 
+* [autograd tutorial by PyTorch](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
+
 * [Automatic Differentiation with torch.autograd by PyTorch](https://pytorch.org/tutorials/beginner/basics/autograd_tutorial.html#:~:text=This%20happens%20because%20when%20doing,leaf%20nodes%20of%20computational%20graph.)
 
 * [Automatic Differentiation Explained](https://avinashselvam.medium.com/automatic-differentiation-explained-9f02c74e9a90)
