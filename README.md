@@ -14,11 +14,13 @@
 
 ## Introduction
 
-Please refer to the [mlp.py](examples/mlp.py) example.
+Please refer to the [mul.py](mul.py) example.
 
 ## References
 
 * [March 17, 2015 - A Step by Step Backpropagation Example by Matt Mazur](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
+
+* [Extending autograd tutorial by PyTorch](http://pytorch.org/docs/main/notes/extending.html)
 
 * [autograd tutorial by PyTorch](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
 

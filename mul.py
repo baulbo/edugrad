@@ -1,24 +1,24 @@
 from edugrad.tensor import Tensor
 from edugrad.ops import Add
 
-a = Tensor(1)
-b = Tensor(2)
+if __name__ == "__main__":
 
-add = Add()
-c = add(a, b)
-add.backward(a)
+  a = Tensor(1)
+  b = Tensor(2)
 
-print("a's gradient (1?):", a.grad)
-print()
+  add = Add()
+  c = add(a, b)
+  add.backward(a)
 
-add2 = Add()
-add3 = Add()
-add4 = Add()
-d = Tensor(2)
-e = Tensor(3)
+  print("a's gradient (1?):", a.grad)
+  print()
 
-add4(add2(d, e) , add3(d, e))
-add4.backward(d)
-print("d's gradient (2?):", d.grad)
-print()
+  add2 = Add()
+  d = Tensor(2)
+  e = Tensor(3)
+
+  add2(Add()(d, e) , Add()(d, e))
+  add2.backward(d)
+  print("d's gradient (2?):", d.grad)
+  print()
 
