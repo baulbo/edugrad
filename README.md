@@ -28,9 +28,13 @@ Please refer to the [mul.py](mul.py) example. Currently, the example contains no
 
 * [Automatic Differentiation Explained](https://avinashselvam.medium.com/automatic-differentiation-explained-9f02c74e9a90)
 
-* [Automatic differentation](https://en.wikipedia.org/wiki/Automatic_differentiation)
+* [Automatic differentation on Wiki](https://en.wikipedia.org/wiki/Automatic_differentiation)
 
 * [Automatic differentiation from scratch by esciencecenter](https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555)
 
+* [micrograd](https://github.com/karpathy/micrograd)
+
 * [tinygrad](https://github.com/tinygrad/tinygrad)
+
+* [Difference between Variable and Tensor in PyTorch](https://discuss.pytorch.org/t/what-is-the-difference-between-tensors-and-variables-in-pytorch/4914/2)
 
