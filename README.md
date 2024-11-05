@@ -4,37 +4,19 @@
   <br>
 </h1>
 
-<h4 align="center">Touching the surface of automatic differentation.</h4>
-
-
-* A asks B "could you please explain backpropagation to me with a simple example?".
-* B, aware of one's fear of failure thinks *it's been so long since my introduction to machine learning* and quickly responds "I have to be somewhere, maybe ask C?".
-* B gets home and proves to oneself that one can still work out a simple backpropagation example, then proceeds to think about how ML frameworks do this automatically.
-* B goes to bed knowing one is prepared for such question and starts having nightmares in directed acyclic graphs.
+<h4 align="center">Learning about automatic differentiation.</h4>
 
 ## Introduction
 
-Please refer to the [mul.py](mul.py) example. Currently, the example contains non-working code and was more of an experiment. Next, we should go from [this guide](http://pytorch.org/docs/main/notes/extending.html) to learn what the forward and backward functions should actually do.
+This repository serves as an environment to learn about automatic differentiation and differentiable programming ("[software 2.0](https://karpathy.medium.com/software-2-0-a64152b37c35)") in general. Whilst the main focus is not teaching, it might be an interesting starting point for others who also don't know anything about these topics.
 
-## References
 
-* [March 17, 2015 - A Step by Step Backpropagation Example by Matt Mazur](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
+## Explanation 
 
-* [Extending autograd tutorial by PyTorch](http://pytorch.org/docs/main/notes/extending.html)
+A good resource to learn about differentiable programming and automatic differentiation is [The Elements of Differentiable Programming](https://arxiv.org/pdf/2403.14606) by Mathieu Blondel and Vincent Roulet. In what follows the core concepts that enable (efficient) automatic differentiation and other important information listed.
 
-* [autograd tutorial by PyTorch](https://pytorch.org/tutorials/beginner/blitz/autograd_tutorial.html)
+* By training parameterizing functional blocks (e.g. a neural network) using gradient-based optimization one can essentially approximate a functionality instead of manually writing the program.
 
-* [Automatic Differentiation with torch.autograd by PyTorch](https://pytorch.org/tutorials/beginner/basics/autograd_tutorial.html#:~:text=This%20happens%20because%20when%20doing,leaf%20nodes%20of%20computational%20graph.)
+* TODO: think about how software 2.0 allows for easier porting to hardware and is tinygrad an example?
 
-* [Automatic Differentiation Explained](https://avinashselvam.medium.com/automatic-differentiation-explained-9f02c74e9a90)
-
-* [Automatic differentation on Wiki](https://en.wikipedia.org/wiki/Automatic_differentiation)
-
-* [Automatic differentiation from scratch by esciencecenter](https://blog.esciencecenter.nl/automatic-differentiation-from-scratch-23d50c699555)
-
-* [micrograd](https://github.com/karpathy/micrograd)
-
-* [tinygrad](https://github.com/tinygrad/tinygrad)
-
-* [Difference between Variable and Tensor in PyTorch](https://discuss.pytorch.org/t/what-is-the-difference-between-tensors-and-variables-in-pytorch/4914/2)
 
