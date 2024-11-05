@@ -19,4 +19,6 @@ A good resource to learn about differentiable programming and automatic differen
 
 * TODO: think about how software 2.0 allows for easier porting to hardware and is tinygrad an example?
 
+* TODO: thoroughly explain when something is Differentiable, the limitations when something is not and how we can overcome this etc... ([karpathy has written about this for example in this post under Trainable Memory I/O title](https://karpathy.github.io/2016/05/31/rl/)
+
 
